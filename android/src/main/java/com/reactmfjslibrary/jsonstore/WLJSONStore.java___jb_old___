@@ -1,0 +1,28 @@
+package com.mobitel.fuelcard.jsonstore;
+
+import com.facebook.react.bridge.ReactApplicationContext;
+import com.facebook.react.bridge.ReactContextBaseJavaModule;
+import com.facebook.react.bridge.ReactMethod;
+
+/**
+ * Created by janithah on 5/28/2018.
+ */
+
+public class WLJSONStore extends ReactContextBaseJavaModule {
+
+    public WLJSONStore(ReactApplicationContext reactContext) {
+        super(reactContext);
+    }
+
+    @Override
+    public String getName() {
+        return "WLJSONStore";
+    }
+
+    @ReactMethod
+    public void justName(){
+       Toast.makeText(getReactApplicationContext(), message, duration).show();
+    //    return "Hi JSONSTORE";
+    }
+
+}

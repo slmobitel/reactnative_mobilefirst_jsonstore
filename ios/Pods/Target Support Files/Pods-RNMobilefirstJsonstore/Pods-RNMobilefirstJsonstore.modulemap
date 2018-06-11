@@ -1,0 +1,6 @@
+framework module Pods_RNMobilefirstJsonstore {
+  umbrella header "Pods-RNMobilefirstJsonstore-umbrella.h"
+
+  export *
+  module * { export * }
+}
